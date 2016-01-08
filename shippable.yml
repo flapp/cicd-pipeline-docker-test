@@ -1,2 +1,2 @@
 script:
-  - sudo docker run -d -P "fropfropfrop:master.$BUILD_NUMBER"
+  - docker run -d -P "fropfropfrop:master.$BUILD_NUMBER"
